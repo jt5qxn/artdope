@@ -1,0 +1,125 @@
+div.controlpanel {
+  margin: 5px;
+}
+
+.controlpanel.cp-switch svg {
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+}
+
+.controlpanel.cp-switch rect {
+  cursor: pointer;
+  fill: rgb(80, 80, 80);
+  stroke: rgb(30, 30, 30);
+  stroke-width: 2px;
+}
+
+.controlpanel.cp-switch rect:hover {
+  fill: rgb(185, 2, 121);
+  stroke: rgb(255, 0, 110);
+}
+
+.controlpanel.cp-switch.on rect {
+  fill: rgb(216, 0, 140);
+  stroke: rgb(255, 0, 110);
+}
+
+.controlpanel.cp-radio {
+}
+
+.controlpanel.cp-radio ul {
+  list-style-type: none;
+}
+
+.controlpanel.cp-radio ul li {
+  background-color: rgb(80, 80, 80);
+  border: 1px solid rgb(30, 30, 30);
+  border-radius: 2px;
+  cursor: pointer;
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+
+.controlpanel.cp-radio ul li:hover {
+  background-color: rgb(185, 2, 121);
+  border: 1px solid rgb(255, 0, 110);
+} 
+
+.controlpanel.cp-radio ul li.selected {
+  background-color: rgb(216, 0, 140);
+  border: 1px solid rgb(255, 0, 110);
+} 
+
+.controlpanel.cp-selector {
+}
+
+.controlpanel.cp-selector ul {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.controlpanel.cp-selector ul li {
+  color: rgb(250, 250, 250);
+  padding: 5px 15px;
+  text-shadow: 0, 0, 3px rgb(255, 255, 255);
+}
+
+.controlpanel.cp-selector ul.selection li {
+  background-color: rgb(216, 0, 140);
+  border: 1px solid rgb(255, 0, 110);
+  border-radius: 2px;
+  color: rgb(240, 240, 240);
+}
+
+.controlpanel.cp-selector ul.option {
+  position: absolute;
+}
+
+.controlpanel.cp-selector ul.option.hidden {
+  display: none;
+}
+
+.controlpanel.cp-selector ul.option li {
+  background-color: rgb(85, 85, 85);
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-top: 0px;
+  border-color: rgb(65, 65, 65);
+  border-style: solid;
+}
+
+.controlpanel.cp-selector ul.option.hidden {
+  display: none;
+}
+
+.controlpanel.cp-slider rect {
+  cursor: pointer;
+  fill: rgb(5, 5, 5);
+  stroke: rgb(65, 65, 65);
+  stroke-width: 4px;
+}
+
+.controlpanel.cp-slider line {
+  stroke: rgb(255, 0, 165);
+  stroke-width: 2px;
+}
+
+.controlpanel.cp-slider.x svg {
+  height: 40px;
+  width: 300px;
+}
+
+.controlpanel.cp-slider.y svg {
+  height: 300px;
+  width: 40px;
+}
+
+.controlpanel.cp-slider.xy svg {
+  height: 300px;
+  width: 300px;
+}
+
+

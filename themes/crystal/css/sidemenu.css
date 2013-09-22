@@ -1,0 +1,95 @@
+
+/**
+ * Author: Ryo Kuroyanagi
+ */
+
+.crystal-sidemenu {
+}
+
+.crystal-sidemenu ul {
+  list-style: none;
+  width: 180px;
+  left: -130px;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+.crystal-sidemenu ul li {
+  background-color: rgb(60, 60, 60);
+  border-radius: 2px;
+  height: 41px;
+  margin: 1px 0px;
+  position: relative;
+  text-decoration: none;
+  -webkit-transition: .3s;
+}
+
+.crystal-sidemenu ul li:hover {
+  background-color: rgb(90, 90, 90);
+  left: 120px;
+}
+
+.crystal-sidemenu ul li:after {
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid rgb(60, 60, 60);
+  border-top: 20px solid transparent;
+  content: "";
+  float: right;
+  font-size: 0px;
+  left: 20px;
+  height: 1;
+  position: relative;
+  -webkit-transition: .3s;
+  width: 1;
+}
+
+.crystal-sidemenu ul li:hover:after {
+  border-color: rgb(90, 90, 90);
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+}
+
+.crystal-sidemenu ul li a {
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+  margin: 0 5px 0 10px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(200,200,200, .4);
+}
+
+.crystal-sidemenu ul li a:hover {
+  text-decoration: underline;
+}
+
+.crystal-sidemenu ul li a:after {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: inset 0 0 1px rgba(0,0,0,.5);
+  content: "";
+  font-size: 2px;
+  height: 0px;
+  line-height: 40px;
+  margin: 10px;
+  padding: 0 5px;
+  position: relative;
+  top: -5px;
+  width: 0px;
+}
+
+.crystal-sidemenu ul li a:before {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: inset 0 0 1px rgba(0,0,0,.5);
+  content: "";
+  font-size: 2px;
+  height: 0px;
+  line-height: 40px;
+  margin: 10px;
+  padding: 0 5px;
+  position: relative;
+  top: -5px;
+  width: 0px;
+}
+

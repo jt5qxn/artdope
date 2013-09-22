@@ -1,0 +1,26 @@
+.crystal-button {
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  height: 35px;
+  line-height: 35px;
+  margin: 1px 5px;
+  width: 120px;
+}
+
+.crystal-button.red {
+  background-color: rgb(255, 65, 65);
+}
+
+.crystal-button.red:hover {
+  background-color: rgb(255, 85, 85);
+}
+
+.crystal-button.black {
+  background-color: rgb(80, 80, 80);
+}
+
+.crystal-button.black:hover {
+  background-color: rgb(105, 105, 105);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>ArtDope - Control Panel</title>
+<link rel="icon" href="./images/icon.png" type="image/png" />
+<!-- web font-->
+<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'
+type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'
+type='text/css'/>
+<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+<link rel="stylesheet" type="text/css" href="../css/document.css"/>
+<link rel="stylesheet" type="text/css" href="./css/controlpanel.css"/>
+<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/controlpanel.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+
+<div class="container">
+  <h1>Control Panel</h1>
+  <h2>Overview</h2>
+  <p>controlpanel.js is a library to handle GUIs to set parameters.</p>
+  <h2>Structure</h2>
+  <p>Each control is sepalated into a class. The basic structure of the classes
+  are the same.</p>
+  <h3>@function appendTo(DOM_Element)</h3>
+  <p>This is a function to append a container to given HTML DOM Element.</p>
+  <h3>@function getValue()</h3>
+  <p>This is a function to get the current value set by user using the
+  contorl.</p>
+  <h3>@function setValue(value, isExecuted)</h3>
+  <p>This is a function to set value by program. We can decide the callback
+  functions are executed after the value setting.</p>
+  <h3>@function addCallback(callback)</h3>
+  <p>This is a function to add a callback to be executed when the value of the
+  control is changed.</p>
+  <h3>@function removeCallback(callback)</h3>
+  <p>This is a function to remove callback which set by addCallback().</p>
+  <h2>Components</h2>
+  <h3>Switch</h3>
+  <table>
+    <tr><td>type</td><td>boolean</td></tr>
+  </table>
+  <p></p>
+  <div id="switch-container" class="component-container">
+  </div>
+  <h3>Radio Button</h3>
+  <table>
+    <tr><td>type</td><td>int</td></tr>
+  </table>
+  <p></p>
+  <div id="radio-container" class="component-container">
+  </div>
+  <h3>Selector</h3>
+  <table>
+    <tr><td>type</td><td>string</td></tr>
+  </table>
+  <p></p>
+  <div id="selector-container" class="component-container">
+  </div>
+  <h3>Horizontal Slider</h3>
+  <table>
+    <tr><td>type</td><td>float</td></tr>
+  </table>
+  <p></p>
+  <div id="sliderx-container" class="component-container">
+  </div>
+  <h3>Vertical Slider</h3>
+  <table>
+    <tr><td>type</td><td>float</td></tr>
+  </table>
+  <p></p>
+  <div id="slidery-container" class="component-container">
+  </div>
+  <h3>2D Slider</h3>
+  <table>
+    <tr><td>type</td><td>object</td></tr>
+    <tr><td>x</td><td>float</td><tr>
+    <tr><td>y</td><td>float</td><tr>
+  </table>
+  <p></p>
+  <div id="sliderxy-container" class="component-container">
+  </div>
+</div>
+<script type="text/javascript"
+src="../js/google_analytics_tracking_code.js"></script>
+</html>

@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+}
+
+.container {
+  margin: 100px auto;
+  width: 800px;
+}
+
+.container table {
+  background-color: rgb(0, 0, 0);
+  border-collapse: collapse;
+  border: none;
+  border-radius: 3px;
+  opacity: .8;
+  padding: 20px;
+}
+
+.container table td {
+}
+
+.selector {
+  height: 400px;
+  overflow: none;
+  padding: 20px;
+  width: 400px;
+}
+
+.selector ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.selector li {
+  color: white;
+  padding: 10px;
+  -webkit-transition: .2s;
+}
+
+.selector li:hover {
+  color: rgb(0, 255, 82);
+}
+
+.selector li .itemname {
+  margin: 20px;
+}
+
+.showcase {
+  height: 400px;
+  width: 400px;
+}
+
+.showcase-item {
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.showcase-item img {
+  width: 300px;
+  height: 200px;
+}
+

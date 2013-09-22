@@ -1,0 +1,61 @@
+
+.crystal-tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  padding: 5px;
+  font-size: 13px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+}
+
+.crystal-tooltip.shown {
+  opacity: .8;
+}
+
+.crystal-tooltip.bottom {
+  margin-bottom: -3px;
+  padding-top: 9px;
+}
+
+.crystal-tooltip.top {
+  margin-top: -3px;
+  padding-bottom: 9px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.crystal-tooltip.top .tooltip-arrow {
+  border-top-color: #34495e;
+  border-width: 9px 9px 0;
+  bottom: 0;
+  margin-left: -9px;
+  left: 50%;
+}
+
+.crystal-tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #34495e;
+  border-width: 0 9px 9px;
+  bottom: 0;
+  margin-left: -9px;
+  left: 50%;
+  top: 0;
+}
+
+.tooltip-inner {
+  background-color: #34495e;
+  line-height: 18px;
+  padding: 12px 12px;
+  text-align: center;
+  width: 183px;
+  border-radius: 6px;
+  max-width: 200px;
+  color: #ffffff;
+}

@@ -1,0 +1,38 @@
+
+.cyber-alert {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+};
+
+.cyber-alert.shown {
+  display: initial;
+}
+
+.cyber-alert .cyber-alert-container {
+  background-color: rgb(50, 50, 50);
+  font-size: 15px;
+  opacity: 0;
+  -webkit-transition: .2s;
+}
+  
+.cyber-alert.shown .cyber-alert-container {
+  opacity: .8;
+}
+.cyber-alert .cyber-alert-msg {
+  color: white;
+}
+
+.cyber-alert .cyber-alert-removebutton {
+  background-color: rgb(100, 100, 100);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 10px
+  margin: 10px
+  padding: 4px 5px 3px 5px;
+  position: relative;
+  top: -2px;
+}
